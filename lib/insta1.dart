@@ -41,15 +41,6 @@ class _insta1State extends State<insta1> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
-                        height: 70,
-                        width: 70,
-                        decoration: BoxDecoration(
-                            color: Colors.white,
-                            shape: BoxShape.circle,
-                            image: DecorationImage(
-                                image: AssetImage("images/pizza-hut.png"))),
-                      ),
-                      Container(
                           height: 100,
                           width: 100,
                           child: const Column(
